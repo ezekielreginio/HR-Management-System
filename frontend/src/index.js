@@ -8,3 +8,6 @@ function akonaman(){
 
     
 }
+function tite(){
+    
+}
