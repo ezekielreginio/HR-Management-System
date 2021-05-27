@@ -51,7 +51,6 @@ INSTALLED_APPS = [
 
     'app_recruitment',
     'app_login',
-    
 ]
 
 MIDDLEWARE = [
@@ -73,7 +72,8 @@ AUTHENTICATION_BACKENDS = [
 
 ROOT_URLCONF = '_hrsys.urls'
 
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
+#CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 TEMPLATES = [
     {
