@@ -2,7 +2,7 @@ alert("hi")
 alert("empty")
 
 function foo(){
-    
+    console.log("Etits")
 }
 
 function sample(){
