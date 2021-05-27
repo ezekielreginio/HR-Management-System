@@ -45,9 +45,13 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
 
+    #crispy form apps:
+    'crispy_forms',
+    'crispy_bootstrap5',
+
     'app_recruitment',
     'app_login',
-    'crispy_forms'
+    
 ]
 
 MIDDLEWARE = [
@@ -68,6 +72,8 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 ROOT_URLCONF = '_hrsys.urls'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 TEMPLATES = [
     {

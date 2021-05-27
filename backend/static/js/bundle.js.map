@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://Skillfind/./src/index.js"],"names":["alert"],"mappings":";;;;;AAAAA,KAAK,CAAC,IAAD,CAAL,C","file":"bundle.js","sourcesContent":["alert(\"hi\")"],"sourceRoot":""}
