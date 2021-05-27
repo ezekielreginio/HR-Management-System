@@ -6,7 +6,7 @@ function foo(){
 }
 
 function sample(){
-    
+    alert("etits")
 }
 
 function akonaman(){
